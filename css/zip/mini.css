@@ -1,0 +1,84 @@
+.mini_bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% auto;
+  width: 61.5%;
+}
+.mini {
+  display: flex;
+  align-items: center;
+  height: 62px;
+  width: 765px;
+  margin: 0 auto;
+  border: 1px solid #ececec;
+  border-radius: 24px;
+  position: relative;
+}
+.mini::after {
+  content: "";
+  width: 2px;
+  height: 25px;
+  position: absolute;
+  margin-left: 50%;
+  background-color: #ececec;
+}
+
+.list-left,
+.list-right {
+  position: absolute;
+  left: 5%;
+  top: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+.list-right {
+  left: 55%;
+}
+.list-left.open,
+.list-right.open {
+  opacity: 1;
+  visibility: visible;
+}
+nav {
+  flex: 1;
+  margin-left: 5%;
+  position: relative;
+  cursor: pointer;
+}
+nav::after {
+  content: "\f078";
+  font-family: fontawesome;
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  font-size: 20px;
+  color: #ececec;
+}
+
+nav button {
+  font-size: 20px;
+}
+ul {
+  font-size: 18px;
+  width: 45%;
+}
+ul li {
+  padding: 5% 0;
+}
+ul li a {
+}
+
+.list-left {
+}
+.list-left li {
+}
+.list-right {
+}
+.list-right li {
+}
+@media (max-width: 768px) {
+  .mini_bar {
+    padding: 8% 0;
+  }
+}

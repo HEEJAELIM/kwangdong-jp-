@@ -1,0 +1,27 @@
+.top {
+}
+
+.top_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/2-1/top_01.png) no-repeat center center;
+  background-position: center center;
+  background-size: auto;
+  height: 600px;
+  width: 100%;
+}
+.top_img h1 {
+  font-size: 61px;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .top_img {
+    height: 450px;
+  }
+}
+/* <section class="top">
+      <div class="top_img">
+        <h1>五行の紹介</h1>
+      </div>
+    </section> */

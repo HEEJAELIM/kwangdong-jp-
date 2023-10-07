@@ -1,0 +1,36 @@
+.top_img {
+  background: url(../img/3-1/top.png) no-repeat center center;
+}
+section:nth-child(6) {
+  background: url(../img/3-3/center.png) no-repeat center center;
+  height: 1050px;
+  width: 100%;
+}
+section:nth-child(7) {
+  width: 61.5%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
+.info {
+  background-color: var(--bg);
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 5%;
+  padding: 3.5% 0;
+}
+@media (max-width: 768px) {
+  section:nth-child(6) {
+    margin-top: 5%;
+    width: 700px;
+    height: 600px;
+    background-size: cover;
+  }
+  section:nth-child(7) {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #footer {
+    margin-top: 5%;
+  }
+}

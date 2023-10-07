@@ -1,0 +1,18 @@
+:root {
+  --head_list: rgb(45, 45, 45);
+  --head_lists: rgb(0, 0, 0);
+  --whiteB: rgb(255, 255, 255);
+  --main_text: rgb(28, 28, 28);
+  --carrot: rgb(220, 108, 75);
+  --bd: #cecece;
+  --number_h1: #d8d8d8;
+  --bg: #f7f7f7;
+}
+
+color: var(--main_text);
+color: var(--carrot);
+color: var(--baseG);
+color: var(--ft);
+color: var(--ftW);
+background-color: var(--bg);
+color: var(--number_h1);

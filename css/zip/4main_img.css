@@ -1,0 +1,124 @@
+.main123 {
+}
+.main_img {
+}
+.main_img .main_imge {
+  display: flex;
+}
+.main_img .main_imge:nth-child(2) {
+  flex-direction: row-reverse;
+}
+.main_img .main_imge img {
+  width: 50%;
+}
+.main_img .main_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin-bottom: 5%;
+}
+.main_imge:nth-child(odd) .main_text {
+  padding: 0 3%;
+}
+.main_imge:nth-child(even) .main_text span,
+.main_imge:nth-child(even) .main_text p {
+  width: 80%;
+}
+.even {
+  margin: 2% 0;
+}
+.main_img .main_text h1 {
+  font-size: 100px;
+  color: #d8d8d8;
+}
+.main_img .main_text span {
+  font-size: 30px;
+  margin: 5% 0;
+  font-family: "NotoSansJP-semiBold";
+}
+.main_img .main_text p {
+  font-size: 18px;
+  width: 98%;
+  line-height: 1.5em;
+  font-family: "NotoSansJP-Light";
+}
+
+@media (max-width: 768px) {
+  .main_img .main_imge {
+    display: flex;
+    flex-direction: column;
+  }
+  .main_img .main_imge:nth-child(2) {
+    flex-direction: column;
+  }
+  .main_img .main_imge img {
+    width: 100%;
+  }
+  .main_img .main_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5% 3%;
+    width: 100%;
+    margin: 3% 0 3% 0;
+  }
+  .main_imge:nth-child(even) .main_text span {
+    margin-left: auto;
+  }
+  .main_img .main_text p {
+    width: 60%;
+  }
+  .even .main_text {
+    text-align: end;
+    padding: 0;
+  }
+  .even .main_text p {
+    margin-left: auto;
+  }
+  .main_img .main_text span {
+    font-size: 30px;
+    margin: 5% 0;
+  }
+}
+
+/* <section class="main123">
+      <div class="logo_title">
+        <img src="./img/2-1/logo.png" alt="" />
+        <h5>体と心のトータルケア</h5>
+        <h3><strong>韓方美容とは?</strong></h3>
+      </div>
+
+      <div class="main_img">
+        <div class="main_imge">
+          <img src="./img/2-1/main_01.png" alt="" />
+          <div class="main_text">
+            <h1>01</h1>
+            <span>肌と体の全般的な診断</span>
+            <p>
+              お顔は心と体を映し出す鏡であると考えます。お顔と体は密接な関係が有り、体の状態を整える事が大切です。それでお肌だけでなくお体の
+            </p>
+          </div>
+        </div>
+        <div class="main_imge even">
+          <img src="./img/2-1/main_02.png" alt="" />
+          <div class="main_text">
+            <h1>02</h1>
+            <span>全身の循環と顔色の改善</span>
+            <p>
+              韓方美容治療は肌のトラブルにおいてその原因を　治療する韓方薬と全身循環を円滑にさせる鍼治療を用いてお顔の状態を改善させます。
+            </p>
+          </div>
+        </div>
+        <div class="main_imge">
+          <img src="./img/2-1/main_03.png" alt="" />
+          <div class="main_text">
+            <h1>03</h1>
+            <span>肌の再生力を高める鍼治療</span>
+            <p>
+              自然な美しさを求め、ニキビからアンチエイジングまで肌の全般にかけた診療を行っています。また、体の気血循環を改善させて肌の再生力
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> */

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>韓方美容</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/zip/root.css" />
+    <link rel="stylesheet" href="./css/reset-inc.css" />
+    <link rel="stylesheet" href="./css/zip/section.css" />
+    <link rel="stylesheet" href="./css/zip/0logo_title.css" />
+    <link rel="stylesheet" href="./css/zip/1top_img.css" />
+    <link rel="stylesheet" href="./css/zip/3banner.css" />
+    <link rel="stylesheet" href="./css/zip/4main_img.css" />
+    <link rel="stylesheet" href="./css/zip/5clickP.css" />
+    <link rel="stylesheet" href="./css/2-1.css" />
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <!-- ICON -->
+    <script
+      src="https://kit.fontawesome.com/357ee75b7c.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- INCLUD -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#headers").load("./header.html");
+        $("#sidebars").load("./sidebar.html");
+        $("#footers").load("./footer.html");
+        $("#minis").load("./mini.html");
+      });
+    </script>
+  </head>
+  <body onload="InitializeStaticMenu();">
+    <!-- HEADER -->
+    <div id="headers"></div>
+    <!-- SIDEBAR -->
+    <div id="sidebars"></div>
+
+    <section class="top">
+      <div class="top_img">
+        <h1>韓方ビューティー</h1>
+      </div>
+    </section>
+
+    <!-- MINIBAR -->
+    <div id="minis"></div>
+
+    <section class="banner">
+      <h1>韓方美容</h1>
+      <img src="./img/2-1/banner.png" alt="banner-img" />
+      <div class="banner_text">
+        <div class="banner_left">
+          <span>美しさをケアする<strong>韓方美容</strong></span>
+          <p>
+            韓方美容治療は肌のトラブルにおいてその
+            原因を治療する韓方薬と美容鍼治療を
+            用いてお顔のお悩みを改善させます。
+          </p>
+        </div>
+        <div class="banner_right">
+          <span>整形針</span>
+          <span>美容針</span>
+          <span>Vライン輪郭針</span>
+          <span>MTS</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="main123">
+      <div class="logo_title mb">
+        <img src="./img/2-1/logo.png" alt="logo" />
+        <h5>体と心のトータルケア</h5>
+        <h3><strong>韓方美容とは?</strong></h3>
+      </div>
+
+      <div class="main_img">
+        <div class="main_imge">
+          <img src="./img/2-1/main_01.png" alt="main-img_01" />
+          <div class="main_text">
+            <h1>01</h1>
+            <span>肌と体の全般的な診断</span>
+            <p>
+              お顔は心と体を映し出す鏡であると考えます。お顔と体は密接な関係が有り、体の状態を整える事が大切です。それでお肌だけでなくお体の
+            </p>
+          </div>
+        </div>
+        <div class="main_imge even">
+          <img src="./img/2-1/main_02.png" alt="main-img_02" />
+          <div class="main_text">
+            <h1>02</h1>
+            <span>全身の循環と顔色の改善</span>
+            <p>
+              韓方美容治療は肌のトラブルにおいてその原因を　治療する韓方薬と全身循環を円滑にさせる鍼治療を用いてお顔の状態を改善させます。
+            </p>
+          </div>
+        </div>
+        <div class="main_imge">
+          <img src="./img/2-1/main_03.png" alt="main-img_03" />
+          <div class="main_text">
+            <h1>03</h1>
+            <span>肌の再生力を高める鍼治療</span>
+            <p>
+              自然な美しさを求め、ニキビからアンチエイジングまで肌の全般にかけた診療を行っています。また、体の気血循環を改善させて肌の再生力
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="last">
+      <div class="logo_title">
+        <img src="./img/2-1/logo.png" alt="logo" />
+        <h3>女性の美しさのための</h3>
+        <h3>韓方美容管理<strong>システム</strong></h3>
+      </div>
+      <ul class="last_btn">
+        <li data-alt="tab1" class="active">整形鍼</li>
+        <li data-alt="tab2">美容鍼</li>
+        <li data-alt="tab3">Vライン輪郭鍼</li>
+        <li data-alt="tab4">MTSマイクロ鍼</li>
+      </ul>
+      <div class="tabs">
+        <div id="tab1" class="active">
+          <img src="./img/2-1/last_01.png" alt="整形鍼" />
+          <div class="tab_text">
+            <h1>整形鍼</h1>
+            <p>
+              東洋医学学術誌の論文に掲載された整形鍼はマスコミよりも注目を浴びた韓方美容治療です。施術用鍼を用いて韓方医の手技で真皮層、美容ツボ、筋肉などを刺激して効果が出てくるようにします。
+            </p>
+            <p>
+              肌の中にある瘀血(クロチ)を取り除いて血液やリンパ循環を円滑にして表情筋を整え、フェイスラインもキレイにします。肌の細胞を活性化させることでコラーゲンやエラスチンの生成の促進・肌の弾力を取り戻します。透明感・ほうれい線・二十顎・毛穴の開きにも効果があります。
+            </p>
+            <div class="last_time">
+              <img src="./img/2-3/icon-time2.png" alt="time" />
+              <span>施術時間 : 3時間</span>
+            </div>
+          </div>
+        </div>
+        <div id="tab2">
+          <img src="./img/2-1/last_01.png" alt="整形鍼" />
+          <div class="tab_text">
+            <h1>整形鍼</h1>
+            <p>
+              東洋医学学術誌の論文に掲載された整形鍼はマスコミよりも注目を浴びた韓方美容治療です。施術用鍼を用いて韓方医の手技で真皮層、美容ツボ、筋肉などを刺激して効果が出てくるようにします。
+            </p>
+            <p>
+              肌の中にある瘀血(クロチ)を取り除いて血液やリンパ循環を円滑にして表情筋を整え、フェイスラインもキレイにします。肌の細胞を活性化させることでコラーゲンやエラスチンの生成の促進・肌の弾力を取り戻します。透明感・ほうれい線・二十顎・毛穴の開きにも効果があります。
+            </p>
+            <div class="last_time">
+              <img src="./img/2-3/icon-time2.png" alt="time" />
+              <span>施術時間 : 3時間</span>
+            </div>
+          </div>
+        </div>
+        <div id="tab3">
+          <img src="./img/2-1/last_01.png" alt="整形鍼" />
+          <div class="tab_text">
+            <h1>整形鍼</h1>
+            <p>
+              東洋医学学術誌の論文に掲載された整形鍼はマスコミよりも注目を浴びた韓方美容治療です。施術用鍼を用いて韓方医の手技で真皮層、美容ツボ、筋肉などを刺激して効果が出てくるようにします。
+            </p>
+            <p>
+              肌の中にある瘀血(クロチ)を取り除いて血液やリンパ循環を円滑にして表情筋を整え、フェイスラインもキレイにします。肌の細胞を活性化させることでコラーゲンやエラスチンの生成の促進・肌の弾力を取り戻します。透明感・ほうれい線・二十顎・毛穴の開きにも効果があります。
+            </p>
+            <div class="last_time">
+              <img src="./img/2-3/icon-time2.png" alt="time" />
+              <span>施術時間 : 3時間</span>
+            </div>
+          </div>
+        </div>
+        <div id="tab4">
+          <img src="./img/2-1/last_01.png" alt="整形鍼" />
+          <div class="tab_text">
+            <h1>整形鍼</h1>
+            <p>
+              東洋医学学術誌の論文に掲載された整形鍼はマスコミよりも注目を浴びた韓方美容治療です。施術用鍼を用いて韓方医の手技で真皮層、美容ツボ、筋肉などを刺激して効果が出てくるようにします。
+            </p>
+            <p>
+              肌の中にある瘀血(クロチ)を取り除いて血液やリンパ循環を円滑にして表情筋を整え、フェイスラインもキレイにします。肌の細胞を活性化させることでコラーゲンやエラスチンの生成の促進・肌の弾力を取り戻します。透明感・ほうれい線・二十顎・毛穴の開きにも効果があります。
+            </p>
+            <div class="last_time">
+              <img src="./img/2-3/icon-time2.png" alt="time" />
+              <span>施術時間 : 3時間</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <div id="footers"></div>
+    <!-- section .last 버튼 -->
+    <script>
+      $(".last_btn li").click(function () {
+        $(this).addClass("active");
+        $(this).siblings("li").removeClass("active");
+
+        let tab = $(this).attr("data-alt");
+        $(".tabs div").removeClass("active");
+        $("#" + tab).addClass("active");
+      });
+
+      const header = document.querySelector("header");
+    </script>
+  </body>
+</html>

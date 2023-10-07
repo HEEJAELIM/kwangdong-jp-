@@ -1,0 +1,100 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner h1 {
+  font-size: 55px;
+  margin-bottom: 5%;
+  font-family: "NotoSansJP-semiBold";
+}
+.banner img {
+  margin-bottom: 3%;
+  width: 100%;
+}
+.banner_text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.banner_text .banner_left {
+  width: 100%;
+}
+.banner_text .banner_left span {
+  font-size: 40px;
+  font-family: "NotoSansJP-Light";
+}
+.banner_text .banner_left span strong {
+  font-family: "NotoSansJP-semiBold";
+}
+.banner_text .banner_left p {
+  font-size: 20px;
+  width: 65%;
+  margin-top: 3%;
+}
+/* **************************grid4(2-1)************************** */
+/* **************************grid6(3-2)************************** */
+.banner_text .banner_right {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid #df1212; */
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 3%;
+}
+.banner_text .banner_right span {
+  /* border: 1px solid #000; */
+  font-size: 22px;
+  text-align: center;
+  background-color: #f7f7f7;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* **************************grid2(2-2)************************** */
+/* .banner_text .banner_right {
+  height: 220px;
+  grid-template-rows: repeat(1, 1fr);
+}
+.banner_text .banner_right span {
+  height: 100%;
+} */
+
+@media (max-width: 768px) {
+  .banner_text {
+    flex-direction: column;
+  }
+  .banner_text .banner_left {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .banner_text .banner_right {
+    width: 100%;
+  }
+}
+
+/* <section class="banner">
+      <h1>更年期障害</h1>
+      <img src="./img/3-2/banner.png" alt="" />
+      <div class="banner_text">
+        <div class="banner_left">
+          <span>個人別、症状別に異なる<strong>更年期障害</strong></span>
+          <p>
+            更年期障害は個人の健康状態と様々な症状によって治療方法も異なります。廣東五行センターでは診断と
+            原因別治療を行って更年期で疲れ
+          </p>
+        </div>
+        <div class="banner_right">
+          <span>逆上せ、多汗症、顔面紅潮</span>
+          <span>不眠症</span>
+          <span>疲労感及び無力感</span>
+          <span>嫌気、憂うつ、不安</span>
+          <span>関節の痛み、骨粗しょう症</span>
+          <span>膣乾燥、性交痛</span>
+        </div>
+      </div>
+    </section> */

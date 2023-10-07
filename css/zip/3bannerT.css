@@ -1,0 +1,29 @@
+section:nth-child(3) {
+  width: 100%;
+}
+.banner {
+  /* border: 1px solid #000; */
+}
+.banner2_text {
+  display: flex;
+  background: url(../img/5-1/banner_bg.png) no-repeat center center;
+  background: url(../img/5-1/banner.png) no-repeat center center;
+  height: 700px;
+  width: 100%;
+}
+.banner2_left {
+  width: 61.5%;
+  margin: auto;
+  height: 50%;
+}
+.banner2_left > * {
+  margin-bottom: 5%;
+}
+.banner2_left h3 {
+  font-size: 40px;
+  width: 65%;
+}
+.banner2_left p {
+  font-size: 20px;
+  width: 60%;
+}

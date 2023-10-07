@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+  , initial-scale=1.0"
+    />
+    <title>気病みクリニック</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/zip/root.css" />
+    <link rel="stylesheet" href="./css/reset-inc.css" />
+    <link rel="stylesheet" href="./css/zip/section.css" />
+    <link rel="stylesheet" href="./css/zip/0logo_title.css" />
+    <link rel="stylesheet" href="./css/zip/1top_img.css" />
+    <link rel="stylesheet" href="./css/zip/3banner2.css" />
+    <link rel="stylesheet" href="./css/zip/4main_img.css" />
+    <link rel="stylesheet" href="./css/zip/5clickP.css" />
+    <link rel="stylesheet" href="./css/2-2.css" />
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <!-- ICON -->
+    <script
+      src="https://kit.fontawesome.com/357ee75b7c.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- INCLUD -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#headers").load("./header.html");
+        $("#sidebars").load("./sidebar.html");
+        $("#footers").load("./footer.html");
+        $("#minis").load("./mini.html");
+      });
+    </script>
+  </head>
+  <body onload="InitializeStaticMenu();">
+    <!-- HEADER -->
+    <div id="headers"></div>
+    <!-- SIDEBAR -->
+    <div id="sidebars"></div>
+
+    <section class="top">
+      <div class="top_img">
+        <h1>韓方ビューティー</h1>
+      </div>
+    </section>
+
+    <!-- MINIBAR -->
+    <div id="minis"></div>
+
+    <section class="banner">
+      <h1>気病みクリニック</h1>
+      <img src="./img/2-2/banner.png" alt="banner-img" />
+      <div class="banner_text">
+        <div class="banner_left">
+          <span
+            >体質別オーダーメード韓方薬<br /><strong
+              >韓方ダイエット</strong
+            ></span
+          >
+          <p>
+            気血循環が改善されるように患者の体質と病症に合わせて韓方薬やダイエット治療を行います。五臓六腑の機能を正常に回復、消化や排便を円滑にし、健康や美しさを同時に保ちます。
+          </p>
+        </div>
+        <div class="banner_right">
+          <span>ワンディダイトエッ</span>
+          <span>入院ダイエット</span>
+        </div>
+      </div>
+    </section>
+    <section class="main">
+      <div class="logo_title">
+        <img src="./img/2-1/logo.png" alt="logo" />
+        <h5>健康な美しさ</h5>
+        <h3><strong>韓方ダイエットとは?</strong></h3>
+      </div>
+      <img class="main_img" src="./img/2-2/main.png" alt="" />
+      <div class="main_text">
+        <div>
+          <h1>01</h1>
+          <h3><strong>全身の循環と顔色の改善</strong></h3>
+          <p>
+            患者によって異なる「体質」と「肥満の原因」を把握してダイエット韓方薬をオーダーメードで処方します。又、デトックスプログラムを通じてリバウンド防止して体質改善の効果まで得られるように治療を行います
+          </p>
+        </div>
+        <div>
+          <h1>02</h1>
+          <h3><strong>トータルダイエット治療プログラム</strong></h3>
+          <p>
+            個人の体質による韓方薬で食欲を抑えて、新陳代謝を上げることで健康に体質改善をしながら減量できるようにします。脂肪分解鍼や薬鍼、高周波治療、衝撃波治療などのダイエット治療を通じて脂肪分解を促進させて気血循環を良くします。
+          </p>
+        </div>
+      </div>
+      <p class="main_p">
+        「体質」と「肥満の原因」を把握してダイエット韓方薬をオーダーメード処方
+        ㆍ毒素排出プログラムㆍリバウンド防止の体質改善プログラム
+      </p>
+    </section>
+    <section class="last">
+      <div class="logo_title">
+        <img src="./img/2-1/logo.png" alt="logo" />
+        <h4>女性の美しさのための</h4>
+        <h3><strong>韓方ダイエット管理システム</strong></h3>
+      </div>
+      <ul class="last_btn">
+        <li data-alt="tab1" class="active">ワンディダイエット</li>
+        <li data-alt="tab2">入院ダイエット</li>
+      </ul>
+      <div class="tabs">
+        <div id="tab1" class="active">
+          <img src="./img/2-2/last_02.png" alt="ワンディダイエット" />
+          <div class="tab_text">
+            <h1>ワンディダイエット</h1>
+            <p>
+              患者によって異なる「体質」と「肥満の原因」を把握してダイエット韓方薬をオーダーメードで処方します。又、デトックスプログラムを通じてリバウンド防止して体質改善の効果まで得られるように治療を行います。
+            </p>
+            <div class="img_bed">
+              <!-- <img src="./img/2-2/bed_all.png" alt="" /> -->
+              <!-- <div class="bed_text">
+                <h5>プログラム</h5>
+                <span>脂肪分解鍼＋韓方薬薬剤蒸し＋循環針</span>
+                <span>＋カッピング＋高周波治療＋衝撃波治療</span>
+                <span>＋オーダーメイドダイエット韓方薬</span>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <div id="tab2">
+          <img src="./img/2-2/last_01.png" alt="入院ダイエット" />
+          <div class="tab_text">
+            <h1>入院ダイエット</h1>
+            <p>
+              入院ダイエットはワンディダイエットプログラムに運動リハビリ治療及び体型矯正マニュアルセラピー治療が追加された入院ダイエットプログラムとして短時間で集中的にダイエット効果が得られます。
+            </p>
+            <div class="img_bed">
+              <!-- <img src="./img/2-2/bed_all.png" alt="" /> -->
+              <!-- <div class="bed_text">
+                <h5>プログラム</h5>
+                <span>脂肪分解鍼＋韓方薬薬剤蒸し＋循環針</span>
+                <span>＋カッピング＋高周波治療＋衝撃波治療</span>
+                <span>＋オーダーメイドダイエット韓方薬</span>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <div id="footers"></div>
+    <!-- section .last 버튼 -->
+    <script>
+      $(".last_btn li").click(function () {
+        $(this).addClass("active");
+        $(this).siblings("li").removeClass("active");
+
+        let tab = $(this).attr("data-alt");
+        $(".tabs div").removeClass("active");
+        $("#" + tab).addClass("active");
+      });
+    </script>
+  </body>
+</html>

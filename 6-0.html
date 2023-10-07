@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+  , initial-scale=1.0"
+    />
+    <title>掲示板</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/zip/root.css" />
+    <link rel="stylesheet" href="./css/reset-inc.css" />
+    <link rel="stylesheet" href="./css/zip/section.css" />
+    <link rel="stylesheet" href="./css/zip/0logo_title.css" />
+    <link rel="stylesheet" href="./css/zip/1top_img.css" />
+    <link rel="stylesheet" href="./css/6-0.css" />
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <!-- ICON -->
+    <script
+      src="https://kit.fontawesome.com/357ee75b7c.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- INCLUD -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#headers").load("./header.html");
+        $("#sidebars").load("./sidebar.html");
+        $("#footers").load("./footer.html");
+        $("#minis").load("./mini.html");
+      });
+    </script>
+  </head>
+  <body onload="InitializeStaticMenu();">
+    <!-- HEADER -->
+    <div id="headers"></div>
+    <!-- SIDEBAR -->
+    <div id="sidebars"></div>
+
+    <section class="top">
+      <div class="top_img">
+        <h1>掲示板</h1>
+      </div>
+    </section>
+
+    <!-- MINIBAR -->
+    <div id="minis"></div>
+  </body>
+</html>

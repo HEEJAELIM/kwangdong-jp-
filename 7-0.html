@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+  , initial-scale=1.0"
+    />
+    <title>掲示板</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/zip/root.css" />
+    <link rel="stylesheet" href="./css/reset-inc.css" />
+    <link rel="stylesheet" href="./css/zip/section.css" />
+    <link rel="stylesheet" href="./css/zip/0logo_title.css" />
+    <link rel="stylesheet" href="./css/zip/1top_img.css" />
+    <link rel="stylesheet" href="./css/7-0.css" />
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <!-- ICON -->
+    <script
+      src="https://kit.fontawesome.com/357ee75b7c.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- INCLUD -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#headers").load("./header.html");
+        $("#sidebars").load("./sidebar.html");
+        $("#footers").load("./footer.html");
+        $("#minis").load("./mini.html");
+      });
+    </script>
+  </head>
+  <body onload="InitializeStaticMenu();">
+    <!-- HEADER -->
+    <div id="headers"></div>
+    <!-- SIDEBAR -->
+    <div id="sidebars"></div>
+
+    <section class="top">
+      <div class="top_img">
+        <h1>アクセス</h1>
+      </div>
+    </section>
+
+    <!-- MINIBAR -->
+    <div id="minis"></div>
+
+    <section class="banner">
+      <h1>アクセス</h1>
+      <div class="banner_text">
+        <div class="banner_left">
+          <img src="./img/7-0/banner.png" alt="" />
+        </div>
+        <div class="banner_right">
+          <div class="logo_title">
+            <img src="./img/2-1/logo.png" alt="" />
+            <h3>ADDRESS</h3>
+            <h6>06170、ソウル江南区奉恩寺路612、廣東病院</h6>
+            <h6><button>Address Copy</button></h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="public">
+      <h1>LOCATION</h1>
+      <div>
+        <img src="./img/7-0/subway.png" alt="subway" />
+        <img src="./img/7-0/bus.png" alt="bus" />
+        <img src="./img/7-0/taxi.png" alt="taxi" />
+        <img src="./img/7-0/parking.png" alt="parking" />
+      </div>
+    </section>
+    <section class="maps">
+      <img src="./img/7-0/map.png" alt="map" />
+      <div class="map_text">
+        <div class="map_title"><h1>駐車場の利用案内</h1></div>
+        <div class="map_info">
+          <p>
+            平日(月~金)は午前8時30分~午後6時<br />土曜日は午前8時30分~午後1時<br />日曜日・祝日は駐車場の休み<br />駐車に関するお問い合わせ
+            02-2222-4992
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <div id="footers"></div>
+  </body>
+</html>

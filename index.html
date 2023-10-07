@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>광동한방병원</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset-inc.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <script src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#headers").load("./header.html"); // 원하는 파일 경로를 삽입하면 된다
+        $("#sidebars").load("./sidebar.html"); // 추가 인클루드를 원할 경우 이런식으로 추가하면 된다
+        $("#footers").load("./footer.html"); // 추가 인클루드를 원할 경우 이런식으로 추가하면 된다
+      });
+    </script>
+  </head>
+  <body onload="InitializeStaticMenu();">
+    <div class="wrap">
+      <!-- HEADER -->
+      <div id="headers"></div>
+
+      <!-- SIDEBAR -->
+      <div id="sidebars"></div>
+
+      <!-- CONTAINER -->
+      <div id="container">
+        <div class="contents">
+          <!-- VISUAL -->
+          <div class="visual-area">
+            <div class="visual-area__slider swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="visual-txt inner">
+                    <h3>
+                      健康&ビューティー統合ケア <br />廣東病院 五行センター
+                    </h3>
+                    <p>
+                      韓方美容とダイエット、産前、産後ケア<br
+                        class="mob"
+                      />、更年期治療、免疫管理まで
+                      <br />健康と美しさのために努力する五行センターです。
+                    </p>
+                  </div>
+                  <div class="visual-img">
+                    <img
+                      src="./img/main/img-visual.jpg"
+                      alt="健康&ビューティー統合ケア 廣東病院 五行センター"
+                      class="web"
+                    />
+                    <img
+                      src="./img/main/mob/img-visual.jpg"
+                      alt="健康&ビューティー統合ケア 廣東病院 五行センター"
+                      class="mob"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="visual-txt inner">
+                    <h3>
+                      健康&ビューティー統合ケア <br />廣東病院 五行センター
+                    </h3>
+                    <p>
+                      韓方美容とダイエット、産前、産後ケア<br
+                        class="mob"
+                      />、更年期治療、免疫管理まで
+                      <br />健康と美しさのために努力する五行センターです。
+                    </p>
+                  </div>
+                  <div class="visual-img">
+                    <img
+                      src="./img/main/img-visual.jpg"
+                      alt="健康&ビューティー統合ケア 廣東病院 五行センター"
+                      class="web"
+                    />
+                    <img
+                      src="./img/main/mob/img-visual.jpg"
+                      alt="健康&ビューティー統合ケア 廣東病院 五行センター"
+                      class="mob"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+
+          <!-- SUBJECT -->
+          <div class="subject-area">
+            <h3 class="content-tit">診療科目</h3>
+            <div class="content-box">
+              <div class="subject-area__list">
+                <ul class="inner web">
+                  <li>
+                    <div class="subject-img">
+                      <img src="./img/main/img-subject1.jpg" alt="韓方美容" />
+                    </div>
+                    <div class="subject-txt">
+                      <p>韓方美容</p>
+                      <a href="">view</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="subject-img">
+                      <img src="./img/main/img-subject2.jpg" alt="韓方女性" />
+                    </div>
+                    <div class="subject-txt">
+                      <p>韓方女性</p>
+                      <a href="">view</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="subject-img">
+                      <img src="./img/main/img-subject3.jpg" alt="韓方免疫" />
+                    </div>
+                    <div class="subject-txt">
+                      <p>韓方免疫</p>
+                      <a href="">view</a>
+                    </div>
+                  </li>
+                </ul>
+                <div class="swiper mob">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="subject-img">
+                        <img src="./img/main/img-subject1.jpg" alt="韓方美容" />
+                      </div>
+                      <div class="subject-txt">
+                        <p>韓方美容</p>
+                        <a href="">view</a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="subject-img">
+                        <img src="./img/main/img-subject2.jpg" alt="韓方女性" />
+                      </div>
+                      <div class="subject-txt">
+                        <p>韓方女性</p>
+                        <a href="">view</a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="subject-img">
+                        <img src="./img/main/img-subject3.jpg" alt="韓方免疫" />
+                      </div>
+                      <div class="subject-txt">
+                        <p>韓方免疫</p>
+                        <a href="">view</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- HONJI -->
+          <div class="honji-area">
+            <div class="content-box">
+              <div class="honji-area__slider swiper inner">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="honji-txt">
+                      <img src="./img/main/ico-honji.png" alt="honji" />
+                      <p>本治主義 五行 <span>センター</span></p>
+                      <span
+                        >病気の原因を正確に把握して、根本的に解決します。
+                        <br />廣東病院ではこれを本治治療、つまり本治と言います。
+                        <br />人の体を正確に見て根本から治療する本治は、廣東病院
+                        <br />が長い間追求してきた価値であり、五行センターの中心
+                        <br />哲学です。</span
+                      >
+                    </div>
+                    <div class="honji-img">
+                      <img src="./img/main/img-honji1.jpg" alt="honji" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="honji-txt">
+                      <img src="./img/main/ico-honji.png" alt="honji" />
+                      <p>本治主義 五行 <span>センター</span></p>
+                      <span
+                        >病気の原因を正確に把握して、根本的に解決します。
+                        <br />廣東病院ではこれを本治治療、つまり本治と言います。
+                        <br />人の体を正確に見て根本から治療する本治は、廣東病院
+                        <br />が長い間追求してきた価値であり、五行センターの中心
+                        <br />哲学です。</span
+                      >
+                    </div>
+                    <div class="honji-img">
+                      <img src="./img/main/img-honji2.jpg" alt="honji" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="honji-txt">
+                      <img src="./img/main/ico-honji.png" alt="honji" />
+                      <p>本治主義 五行 <span>センター</span></p>
+                      <span
+                        >病気の原因を正確に把握して、根本的に解決します。
+                        <br />廣東病院ではこれを本治治療、つまり本治と言います。
+                        <br />人の体を正確に見て根本から治療する本治は、廣東病院
+                        <br />が長い間追求してきた価値であり、五行センターの中心
+                        <br />哲学です。</span
+                      >
+                    </div>
+                    <div class="honji-img">
+                      <img src="./img/main/img-honji3.jpg" alt="honji" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="honji-txt">
+                      <img src="./img/main/ico-honji.png" alt="honji" />
+                      <p>本治主義 五行 <span>センター</span></p>
+                      <span
+                        >病気の原因を正確に把握して、根本的に解決します。
+                        <br />廣東病院ではこれを本治治療、つまり本治と言います。
+                        <br />人の体を正確に見て根本から治療する本治は、廣東病院
+                        <br />が長い間追求してきた価値であり、五行センターの中心
+                        <br />哲学です。</span
+                      >
+                    </div>
+                    <div class="honji-img">
+                      <img src="./img/main/img-honji4.jpg" alt="honji" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="honji-txt">
+                      <img src="./img/main/ico-honji.png" alt="honji" />
+                      <p>本治主義 五行 <span>センター</span></p>
+                      <span
+                        >病気の原因を正確に把握して、根本的に解決します。
+                        <br />廣東病院ではこれを本治治療、つまり本治と言います。
+                        <br />人の体を正確に見て根本から治療する本治は、廣東病院
+                        <br />が長い間追求してきた価値であり、五行センターの中心
+                        <br />哲学です。</span
+                      >
+                    </div>
+                    <div class="honji-img">
+                      <img src="./img/main/img-honji5.jpg" alt="honji" />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+              <div class="honji-area__bg">
+                <img
+                  src="./img/main/bg-honji.jpg"
+                  alt="honji background"
+                  class="web"
+                />
+                <img
+                  src="./img/main/mob/bg-honji.jpg"
+                  alt="honji background"
+                  class="mob"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- YOUTUBE -->
+          <div class="youtube-area inner">
+            <h3 class="content-tit">
+              五行
+              <img src="./img/main/ico-youtube.png" alt="youtube icon" />
+              ユーチューブ
+            </h3>
+            <div class="content-box">
+              <div class="youtube-area__thumb">
+                <img src="./img/main/img-youtube-thumb.jpg" alt="thumbnail" />
+              </div>
+              <div class="youtube-area__list">
+                <a href="">
+                  <img
+                    src="./img/main/img-youtube-thumb-s.jpg"
+                    alt="thumbnail"
+                  />
+                  <span class="list-txt">
+                    <span>廣東病院 五行センターの 最新ユーチュー</span>
+                    <span>GWANG DONG JP</span>
+                  </span>
+                </a>
+                <a href="">
+                  <img
+                    src="./img/main/img-youtube-thumb-s.jpg"
+                    alt="thumbnail"
+                  />
+                  <span class="list-txt">
+                    <span>廣東病院 五行センターの 最新ユーチュー</span>
+                    <span>GWANG DONG JP</span>
+                  </span>
+                </a>
+                <a href="">
+                  <img
+                    src="./img/main/img-youtube-thumb-s.jpg"
+                    alt="thumbnail"
+                  />
+                  <span class="list-txt">
+                    <span>廣東病院 五行センターの 最新ユーチュー</span>
+                    <span>GWANG DONG JP</span>
+                  </span>
+                </a>
+                <a href="" class="web">
+                  <img
+                    src="./img/main/img-youtube-thumb-s.jpg"
+                    alt="thumbnail"
+                  />
+                  <span class="list-txt">
+                    <span>廣東病院 五行センターの 最新ユーチュー</span>
+                    <span>GWANG DONG JP</span>
+                  </span>
+                </a>
+                <a href="" class="web">
+                  <img
+                    src="./img/main/img-youtube-thumb-s.jpg"
+                    alt="thumbnail"
+                  />
+                  <span class="list-txt">
+                    <span>廣東病院 五行センターの 最新ユーチュー</span>
+                    <span>GWANG DONG JP</span>
+                  </span>
+                </a>
+                <a href="" class="web">
+                  <img
+                    src="./img/main/img-youtube-thumb-s.jpg"
+                    alt="thumbnail"
+                  />
+                  <span class="list-txt">
+                    <span>廣東病院 五行センターの 最新ユーチュー</span>
+                    <span>GWANG DONG JP</span>
+                  </span>
+                </a>
+                <a href="" class="web">
+                  <img
+                    src="./img/main/img-youtube-thumb-s.jpg"
+                    alt="thumbnail"
+                  />
+                  <span class="list-txt">
+                    <span>廣東病院 五行センターの 最新ユーチュー</span>
+                    <span>GWANG DONG JP</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- INSTAGRAM -->
+          <div class="instagram-area inner">
+            <h3 class="content-tit">
+              五行 最新ニュース
+              <span>廣東病院 五行センターの最新情報をお伝えします。</span>
+            </h3>
+            <div class="content-box">
+              <div class="instagram-list">
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CONTACT -->
+          <div class="contact-area inner">
+            <div class="content-box">
+              <div class="contact-area__map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.7330588534874!2d127.0595267763346!3d37.51421362712593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca44271edb51f%3A0x5a2585ce0cc89c2e!2z6rSR64-Z7ZWc67Cp67OR7JuQIOyYpO2Wie2VnOuwqeyEvO2EsA!5e0!3m2!1sko!2skr!4v1695300453380!5m2!1sko!2skr"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <div class="contact-area__info">
+                <div class="time-box">
+                  <p><span>診療時間</span>(韓国時間基準)</p>
+                  <span class="web">02.2222.4888</span>
+                  <span class="mob">02)<br />2222.4888</span>
+                  <ul>
+                    <li><span>月/火/木/金</span> 09:00 ~ 18:00</li>
+                    <li><span>水曜日</span> 09:00 ~ 18:00</li>
+                    <li><span>土曜日</span> 09:00 ~ 18:00</li>
+                    <li>
+                      ランチタイム 月~金 13:00 ~ 14:00 <br />※月1回土曜日休診
+                    </li>
+                  </ul>
+                </div>
+                <div class="icon-box">
+                  <div class="circle">
+                    <a href="">
+                      <img
+                        src="./img/main/ico-contact-circle1.png"
+                        alt="グーグルマップで 見る"
+                      />
+                      <span>グーグルマップで <br />見る</span>
+                    </a>
+                    <a href="">
+                      <img
+                        src="./img/main/ico-contact-circle2.png"
+                        alt="私の位置で 道探し"
+                      />
+                      <span>私の位置で <br />道探し</span>
+                    </a>
+                    <a href="">
+                      <img
+                        src="./img/main/ico-contact-circle3.png"
+                        alt="オンライン相談の ショートカット"
+                      />
+                      <span>オンライン相談の <br />ショートカット</span>
+                    </a>
+                    <a href="">
+                      <img
+                        src="./img/main/ico-contact-circle4.png"
+                        alt="オンライン予約の ショートカット"
+                      />
+                      <span>オンライン予約の <br />ショートカット</span>
+                    </a>
+                    <a href="">
+                      <img
+                        src="./img/main/ico-contact-circle5.png"
+                        alt="住所コピー"
+                      />
+                      <span>住所コピー</span>
+                    </a>
+                  </div>
+                  <div class="square">
+                    <a href="">
+                      <img
+                        src="./img/main/ico-contact-square1.png"
+                        alt="駐車可能"
+                      />
+                      <span>駐車可能</span>
+                    </a>
+                    <a href="">
+                      <img
+                        src="./img/main/ico-contact-square2.png"
+                        alt="バレットパーキング"
+                      />
+                      <span>バレットパーキング</span>
+                    </a>
+                    <a href="">
+                      <img
+                        src="./img/main/ico-contact-square3.png"
+                        alt="入院室運営"
+                      />
+                      <span>入院室運営</span>
+                    </a>
+                    <a href="">
+                      <img
+                        src="./img/main/ico-contact-square4.png"
+                        alt="無線インターネット使用可能"
+                      />
+                      <span>無線インターネット使用可能</span>
+                    </a>
+                    <a href="">
+                      <img
+                        src="./img/main/ico-contact-square5.png"
+                        alt="入院室運営"
+                      />
+                      <span>入院室運営</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- //CONTAINER -->
+
+      <!-- FOOTER -->
+      <div id="footers"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+.mini_bar {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.mini {
+  height: 60px;
+  width: 767px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ececec;
+}
+.mini_text {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+.mini span:first-child {
+  width: 50%;
+  font-size: 20px;
+  /* border: 1px solid #000; */
+}
+.mini_text .fas {
+  color: #ececec;
+}
+.mini_text .bar {
+  position: relative;
+}
+.mini_text .bar::after {
+  content: "";
+  width: 2px;
+  height: 25px;
+  /* border: 1px solid #000; */
+  position: absolute;
+  right: -255%;
+  bottom: -27%;
+  background-color: #ececec;
+}
+@media (max-width: 768px) {
+  .mini_bar {
+    margin: 3% auto !important;
+  }
+}
+
+/* <section class="mini_bar">
+      <div class="mini">
+        <div class="mini_text">
+          <span>韓方ビューティー</span>
+          <span><i class="bar fas fa-chevron-down"></i></span>
+        </div>
+        <div class="mini_text">
+          <span>韓方美容</span>
+          <span><i class="fas fa-chevron-down"></i></span>
+        </div>
+      </div>
+    </section> */

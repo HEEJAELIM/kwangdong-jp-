@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- INC -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/reset-main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+    <!-- ICON -->
+    <script
+      src="https://kit.fontawesome.com/357ee75b7c.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- INCLUD -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#headers").load("./header.html"); // 원하는 파일 경로를 삽입하면 된다
+        $("#sidebars").load("./sidebar.html"); // 추가 인클루드를 원할 경우 이런식으로 추가하면 된다
+        $("#footers").load("./footer.html"); // 추가 인클루드를 원할 경우 이런식으로 추가하면 된다
+      });
+    </script>
+    <!-- ICON -->
+    <script
+      src="https://kit.fontawesome.com/357ee75b7c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body onload="InitializeStaticMenu();">
+    <!-- HEADER -->
+    <div id="headers"></div>
+
+    <!-- SIDEBAR -->
+    <div id="sidebars"></div>
+  </body>
+</html>
+
+
+
+
+<!-- SCRIPT -->
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
+    <!-- <script src="./js/design.js"></script> -->
